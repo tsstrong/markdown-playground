@@ -2,21 +2,27 @@
 ## Instructions
 In this lab, we'll be going through some basic tasks you'll need to do as you manage the GitHub repository for your CollectionBuilder site. The questions below are designed to help you learn and remember what you need to do to perform these tasks, as well as where you can go to look for help. 
 ## Creating your repository and editing files
-**What did you click on to create a new repository in the web interface of Github (i.e., on Github.com)?**
+**What did you click on to create a new repository in the web interface of Github (i.e., on Github.com)?**  
+>Click on the plus sign in the upper right corner. Then click on "new repository".
 
-**What is the difference between a private and a public repository?**
+**What is the difference between a private and a public repository?**  
+>A public repository is accessible to everyone and a private repository is accessible to you and others who have access to it.
 
-**Once your repository has been made and has at least one file, what button do you need to click on the web interface in order to create a new file in your repository?**
+**Once your repository has been made and has at least one file, what button do you need to click on the web interface in order to create a new file in your repository?**  
+>Click on "Add file" and then click on "Create new file".
 
-**Describe the steps you took to clone your repository on Github Desktop**
+**Describe the steps you took to clone your repository on Github Desktop**  
+>First a repository has to be created on Github. Then you go open the Github desktop app and click on "File". Then click on "Clone Repository". You then want to click on the "GitHub.com" tab choose the repository you want to clone. Once you choose the repository click on "clone".
 
 **What is the title of GitHub documentation?**
 
 **What is the URL for GitHub documentation on creating your first repository?**
 
-**Where is your local repository versus the remote repository?**
+**Where is your local repository versus the remote repository?**  
+>A local repository is stored on your computer whereas a remote one is stored on a server.
 
-**What happens when you fetch?** 
+**What happens when you fetch?**  
+>Fetch will grab new work from other people who are working on the repository.
 
 **What happens when you pull changes/commits?**
 
@@ -30,7 +36,8 @@ In this lab, we'll be going through some basic tasks you'll need to do as you ma
 
 **What is the URL for documentation on reverting a commit?**
 
-**How do you revert a commit?**
+**How do you revert a commit?**  
+>On the desktop app, click on the "History" tab. Then right click on the commit you want to revert. Then click on "Revert Changes in Commit".
 
 ## Git-flavored markdown
 **What is the name of the page or URL in GitHub documentation where there's information on how to format your Markdown for GitHub?**
@@ -39,10 +46,16 @@ In this lab, we'll be going through some basic tasks you'll need to do as you ma
 
 **How do you indicate text that has been struckthrough?**
 
-**How do you create a hyperlink in your markdown?**
+**How do you create a hyperlink in your markdown?**  
+> To make a hyperlink, put the text you want hyperlinked in square brackets. Right after the square brackets put the link in parenthese.  [Google](https://www.google.com/)  
 
 **How do you link to a section in the same or another markdown file?**
 
 **What are the three possible symbols for indicating an unordered list?**
 
 **Format the following text into a footnote:**
+Main text: Alex Wingate went to William and Mary  
+Main text: Alex Wingate went to William and Mary[^footnote] some more text
+
+[^WilliamandMaryisauniversityinWilliamsburg,VAfoundedin1693]  
+Bonus: make "William and Mary" a hyperlink to W&M's website.
