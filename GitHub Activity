@@ -14,9 +14,11 @@ In this lab, we'll be going through some basic tasks you'll need to do as you ma
 **Describe the steps you took to clone your repository on Github Desktop**  
 >First a repository has to be created on Github. Then you go open the Github desktop app and click on "File". Then click on "Clone Repository". You then want to click on the "GitHub.com" tab choose the repository you want to clone. Once you choose the repository click on "clone".
 
-**What is the title of GitHub documentation?**
+**What is the title of GitHub documentation?**  
+>GitHub Docs
 
-**What is the URL for GitHub documentation on creating your first repository?**
+**What is the URL for GitHub documentation on creating your first repository?**  
+>https://docs.github.com/en/get-started/quickstart/create-a-repo
 
 **Where is your local repository versus the remote repository?**  
 >A local repository is stored on your computer whereas a remote one is stored on a server.
@@ -24,25 +26,33 @@ In this lab, we'll be going through some basic tasks you'll need to do as you ma
 **What happens when you fetch?**  
 >Fetch will grab new work from other people who are working on the repository.
 
-**What happens when you pull changes/commits?**
+**What happens when you pull changes/commits?**  
+>
 
-**When working on GitHub Desktop, what order should you generally perform push, pull, and fetch?**
+**When working on GitHub Desktop, what order should you generally perform push, pull, and fetch?**  
+>
 
-**What happens when you push commits from your local repository?**
+**What happens when you push commits from your local repository?**  
+>When you push a commit it will transfer it to a remote repository.
 
-**What is the URL for the Github glossary?**
+**What is the URL for the Github glossary?**  
+>https://docs.github.com/en/get-started/quickstart/github-glossary
 
-**Where can you find a list of your commits?**
+**Where can you find a list of your commits?**  
+>On the web browser click on the file you want to want to see. Then click on "History" and it will list all of the commits.
 
-**What is the URL for documentation on reverting a commit?**
+**What is the URL for documentation on reverting a commit?**  
+>https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-commits/reverting-a-commit-in-github-desktop
 
 **How do you revert a commit?**  
 >On the desktop app, click on the "History" tab. Then right click on the commit you want to revert. Then click on "Revert Changes in Commit".
 
 ## Git-flavored markdown
-**What is the name of the page or URL in GitHub documentation where there's information on how to format your Markdown for GitHub?**
+**What is the name of the page or URL in GitHub documentation where there's information on how to format your Markdown for GitHub?**  
+>https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings
 
-**What precedes a second-level heading in Github markdown?**
+**What precedes a second-level heading in Github markdown?**  
+>A first-level heading.
 
 **How do you indicate text that has been struckthrough?**  
 >To create a strikethrough you have use two ~ before and after the text. Ex: ~~strikethrough~~
@@ -50,14 +60,17 @@ In this lab, we'll be going through some basic tasks you'll need to do as you ma
 **How do you create a hyperlink in your markdown?**  
 > To make a hyperlink, put the text you want hyperlinked in square brackets. Right after the square brackets put the link in parentheses. Ex: [Google](https://www.google.com/)  
 
-**How do you link to a section in the same or another markdown file?**
+**How do you link to a section in the same or another markdown file?**  
+>
 
-**What are the three possible symbols for indicating an unordered list?**  
+**What are the three possible symbols for indicating an unordered list?** 
 >You can use the *, -, or + signs to make an unordered list.
 
-**Format the following text into a footnote:**
+**Format the following text into a footnote:**  
 Main text: Alex Wingate went to William and Mary  
-Main text: Alex Wingate went to William and Mary[^footnote] some more text
-
-[^WilliamandMaryisauniversityinWilliamsburg,VAfoundedin1693]  
+Foot note: Wiilliam and Mary is a university in Williamsburg, VA founded in 1693  
 Bonus: make "William and Mary" a hyperlink to W&M's website.
+
+>Alex Wingate went to William and Mary[^1].
+
+[^1]:[William and Mary](https://www.wm.edu/) is a university in Williamsburg, VA founded in 1693 
