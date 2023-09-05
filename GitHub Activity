@@ -27,10 +27,10 @@ In this lab, we'll be going through some basic tasks you'll need to do as you ma
 >Fetch will grab new work from other people who are working on the repository.
 
 **What happens when you pull changes/commits?**  
->
+>It will grab updates from the remote repository and update them on your local repository.
 
 **When working on GitHub Desktop, what order should you generally perform push, pull, and fetch?**  
->
+>Fetch, pull, push
 
 **What happens when you push commits from your local repository?**  
 >When you push a commit it will transfer it to a remote repository.
@@ -61,16 +61,16 @@ In this lab, we'll be going through some basic tasks you'll need to do as you ma
 > To make a hyperlink, put the text you want hyperlinked in square brackets. Right after the square brackets put the link in parentheses. Ex: [Google](https://www.google.com/)  
 
 **How do you link to a section in the same or another markdown file?**  
->TEST
+>Similar to a hyperlink put the word in square brackets that you want to hyperlink. After, put parentheses a hashtag and the name of the section you are linking to. Ex: [Instructions](#instructions)
 
 **What are the three possible symbols for indicating an unordered list?** 
 >You can use the *, -, or + signs to make an unordered list.
 
 **Format the following text into a footnote:**  
 Main text: Alex Wingate went to William and Mary  
-Foot note: Wiilliam and Mary is a university in Williamsburg, VA founded in 1693  
+Foot note: Wiilliam and Mary is a university in Williamsburg, VA founded in 1693.  
 Bonus: make "William and Mary" a hyperlink to W&M's website.
 
 >Alex Wingate went to William and Mary[^1].
 
-[^1]:[William and Mary](https://www.wm.edu/) is a university in Williamsburg, VA founded in 1693 
+[^1]:[William and Mary](https://www.wm.edu/) is a university in Williamsburg, VA founded in 1693. 
